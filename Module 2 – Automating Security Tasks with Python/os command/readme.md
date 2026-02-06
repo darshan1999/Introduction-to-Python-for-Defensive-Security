@@ -40,17 +40,8 @@ Structured output for SIEM and reporting
 
 Safer execution with input validation
 
-📂 Repository Structure
-|File	                     |Description
-os.system.py	             |Basic command execution (legacy approach)
-subprocess.run.py	         |Secure command execution with output capture
-subprocess.Popen.py	         |Real-time command output streaming
-Parsing Command Output.py	 |Regex-based CLI output parsing
-Error Handling and Timeouts.py	|Robust error and timeout handling
-Cross-Platform Compatibility.py	|OS-aware command execution
-Security Considerations.py	    |Injection prevention and    secure patterns
-domain_availability_and_whois_checker.py  |End-to-end defensive automation use case
-🧪 Practical Use Case
+<img width="659" height="272" alt="image" src="https://github.com/user-attachments/assets/76053e6f-cf15-42ac-9008-b6f7cf82e838" />
+
 
 The main script:
 

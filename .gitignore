@@ -8,3 +8,13 @@ __pycache__/
 # Environment files
 .env
  
+# Virtual environment
+.venv/
+
+# Scan outputs
+*.xml
+*.log
+
+# OS files
+__pycache__/
+*.pyc

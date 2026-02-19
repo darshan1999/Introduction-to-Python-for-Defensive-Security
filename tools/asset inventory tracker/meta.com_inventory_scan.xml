@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Thu Feb 19 00:54:07 2026 as: nmap -Pn -sS -p 20-1024 -oX meta.com_inventory_scan.xml meta.com -->
+<nmaprun scanner="nmap" args="nmap -Pn -sS -p 20-1024 -oX meta.com_inventory_scan.xml meta.com" start="1771491247" startstr="Thu Feb 19 00:54:07 2026" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1005" services="20-1024"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1771491248" endtime="1771491253"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="157.240.3.20" addrtype="ipv4"/>
+<hostnames>
+<hostname name="meta.com" type="user"/>
+<hostname name="edge-star-shv-01-sea1.facebook.com" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="1003">
+<extrareasons reason="no-response" count="1003" proto="tcp" ports="20-79,81-442,444-1024"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="89"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="89"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="24215" rttvar="15759" to="100000"/>
+</host>
+<runstats><finished time="1771491253" timestr="Thu Feb 19 00:54:13 2026" summary="Nmap done at Thu Feb 19 00:54:13 2026; 1 IP address (1 host up) scanned in 6.06 seconds" elapsed="6.06" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

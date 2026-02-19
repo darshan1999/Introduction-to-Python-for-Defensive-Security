@@ -1,0 +1,19 @@
+{
+  "hosts": {
+    "google.com": {
+      "open_ports": [
+        80,
+        443
+      ],
+      "last_baseline_update": "2026-02-18 20:00:56"
+    },
+    "meta.com": {
+      "open_ports": [
+        80,
+        443,
+        21
+      ],
+      "last_baseline_update": "2026-02-18 20:00:37"
+    }
+  }
+}

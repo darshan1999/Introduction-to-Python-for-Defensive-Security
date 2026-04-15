@@ -1,0 +1,8 @@
+{
+  "target": "scanme.nmap.org",
+  "open_ports": [
+    22,
+    80,
+    8080
+  ]
+}

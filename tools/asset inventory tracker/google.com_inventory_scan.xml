@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.94 scan initiated Thu Feb 19 00:54:01 2026 as: nmap -Pn -sS -p 20-1024 -oX google.com_inventory_scan.xml google.com -->
+<nmaprun scanner="nmap" args="nmap -Pn -sS -p 20-1024 -oX google.com_inventory_scan.xml google.com" start="1771491241" startstr="Thu Feb 19 00:54:01 2026" version="7.94" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1005" services="20-1024"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1771491242" endtime="1771491247"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="142.250.73.142" addrtype="ipv4"/>
+<hostnames>
+<hostname name="google.com" type="user"/>
+<hostname name="pnseaa-ao-in-f14.1e100.net" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="1003">
+<extrareasons reason="no-response" count="1003" proto="tcp" ports="20-79,81-442,444-1024"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="124"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="124"/><service name="https" method="table" conf="3"/></port>
+</ports>
+<times srtt="18912" rttvar="10419" to="100000"/>
+</host>
+<runstats><finished time="1771491247" timestr="Thu Feb 19 00:54:07 2026" summary="Nmap done at Thu Feb 19 00:54:07 2026; 1 IP address (1 host up) scanned in 5.61 seconds" elapsed="5.61" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
